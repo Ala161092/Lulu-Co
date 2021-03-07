@@ -1,4 +1,4 @@
-* {
+    * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -152,69 +152,70 @@
     .profileImage {
         padding-right: 10px;
     }
-}
-
-@media screen and (min-width: 1400px) {
-    .topSection-container {
-        width: 100%;
-        display: flex;
-        margin-bottom: 25px;
+    .profileText {
+        font-size: 11px;
     }
-    .introText-Container {
-        flex-basis: 60%;
-        text-align: left;
+    @media screen and (min-width: 1440px) {
+        .topSection-container {
+            width: 100%;
+            display: flex;
+            margin-bottom: 25px;
+        }
+        .introText-Container {
+            flex-basis: 60%;
+            text-align: left;
+        }
+        .reviewText-Container {
+            flex-basis: 40%;
+        }
+        .reviewContainer1 {
+            display: inline-flex;
+        }
+        .reviewText {
+            padding-left: 10px;
+        }
+        .middlepadding {
+            padding-left: 50px;
+        }
+        .endpadding {
+            padding-left: 160px;
+        }
+        .introHeader {
+            width: 80%;
+            max-width: 424px;
+        }
+        .introText {
+            text-align: left;
+        }
+        .introText p {
+            max-width: 530px;
+        }
+        .profile {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+        .profileName {
+            padding-top: 0px;
+        }
+        .pink {
+            padding-top: 10px;
+        }
+        .bottomSection-Container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            flex-direction: row;
+        }
+        .pc1 {
+            margin-top: 20px;
+        }
+        .pc2 {
+            margin-top: 40px;
+        }
+        .pc3 {
+            margin-top: 60px;
+        }
     }
-    .reviewText-Container {
-        flex-basis: 40%;
-    }
-    .reviewContainer1 {
-        display: inline-flex;
-    }
-    .reviewText {
-        padding-left: 10px;
-    }
-    .middlepadding {
-        padding-left: 50px;
-    }
-    .endpadding {
-        padding-left: 160px;
-    }
-    .introHeader {
-        width: 80%;
-        max-width: 424px;
-    }
-    .introText {
-        text-align: left;
-    }
-    .introText p {
-        max-width: 530px;
-    }
-    .profile {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding-bottom: 20px;
-    }
-    .profileName {
-        padding-top: 0px;
-    }
-    .pink {
-        padding-top: 10px;
-    }
-    .bottomSection-Container {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-        flex-direction: row;
-    }
-    .pc1 {
-        margin-top: 20px;
-    }
-    .pc2 {
-        margin-top: 40px;
-    }
-    .pc3 {
-        margin-top: 60px;
-    }
-}
