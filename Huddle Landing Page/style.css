@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-mobile.svg);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: contain;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    margin: 0 auto;
+}
+
+.logoContainer {
+    margin-bottom: 40px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.leftDisplayContainer {
+    margin-bottom: 60px;
+}
+
+.mainDisplayImage img {
+    width: 100%;
+}
+
+.rightDisplayContainer {
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.mainText h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 16px;
+    line-height: 36px;
+}
+
+.mainText p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.registerButton a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+}
+
+button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 64px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.registerButton a:hover {
+    color: white
+}
+
+.iconsContainer {
+    text-align: center;
+}
+
+.iconsContainer a {
+    text-decoration: none;
+}
+
+.iconsContainer ion-icon:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+ion-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    margin-right: 11px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+@media screen and (min-width:760px) {
+    body {
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(./images/bg-desktop.svg);
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .wrapper {
+        padding: 2%;
+    }
+    .displayContainer {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 25px;
+        padding-top: 30px;
+    }
+    .mainDisplayImage img {
+        width: 100%;
+    }
+    .leftDisplayContainer {
+        flex-basis: 60%;
+        margin-right: 30px;
+    }
+    .rightDisplayContainer {
+        flex-basis: 40%;
+    }
+    .mainText {
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+    .mainText h1 {
+        font-size: 30px;
+        color: white;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .mainText p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    button {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+    }
+    .registerButton {
+        text-align: left;
+    }
+    .registerButton a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .iconsContainer {
+        text-align: end;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .wrapper {
+        padding: 4%;
+    }
+    .mainText {
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+    .mainText h1 {
+        font-size: 40px;
+        color: white;
+        line-height: 60px;
+        margin-bottom: 24px;
+    }
+    .mainText p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .leftDisplayContainer {
+        margin-right: 50px;
+    }
+    button {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 35px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+    }
+    .registerButton a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
