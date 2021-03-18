@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.wrapper {
+    padding: 32px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F2F2F2;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.buttonContainer .mac,
+.midSectionContainer,
+.bottomSectionContainer,
+.brandContainer {
+    margin-bottom: 110px;
+}
+
+.logoContainerTop img {
+    padding: 50px;
+}
+
+.logoContainer img {
+    padding: 20px;
+    width: 125px;
+}
+
+h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.buttonContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons a {
+    width: 311px;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 13px 50px 13px 50px;
+    border-radius: 50px;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 5px 5px 10px hsla(171, 66%, 44%, 0.452);
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 5px 5px 10px hsla(233, 100%, 69%, 0.452);
+}
+
+.ios:hover {
+    background-color: hsl(171, 70%, 69%);
+}
+
+.mac:hover {
+    background-color: hsl(233, 100%, 82%);
+}
+
+.imageCompContainer {
+    margin-bottom: 56px;
+}
+
+.imageCompContainer img {
+    width: 312px;
+}
+
+.imgDeviceContainer {
+    margin-bottom: 130px;
+}
+
+.imgDeviceContainer img {
+    width: 312px;
+}
+
+.supercharge {
+    margin-bottom: 120px;
+}
+
+.sectionText img {
+    margin-bottom: 15px;
+}
+
+.brandLogos {
+    margin-bottom: 60px;
+}
+
+.brandLogos img {
+    width: 138px;
+}
+
+.infoLinks a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #4C545C;
+}
+
+.infoLinks a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.infoContainer {
+    margin-bottom: 50px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+}
+
+ion-icon {
+    font-size: 30px;
+    margin-right: 40px;
+    color: #4C545C;
+}
+
+ion-icon:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.logoContainerFoot img {
+    width: 55px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1150px) {
+    .wrapper {
+        max-width: 1440px;
+        width: 100%;
+        padding: 0px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .max-width730 {
+        width: 730px;
+        margin: auto;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+    .buttonContainer {
+        width: 500px;
+        margin: auto;
+    }
+    .buttonContainer .ios {
+        margin-bottom: 110px;
+    }
+    .buttons a {
+        width: 227px;
+        padding: 13px 32px 13px 32px;
+    }
+    .midSectionContainer {
+        display: flex;
+    }
+    .midSectionTop {
+        margin-bottom: 80px;
+    }
+    .imageCompContainer img {
+        width: 752px;
+    }
+    .Mid {
+        width: 350px;
+        margin-left: 110px;
+        text-align: left;
+    }
+    .imgDeviceContainer img {
+        width: 710px;
+    }
+    .bottomSectionContainer {
+        display: flex;
+        width: 1110px;
+        margin: auto;
+        justify-content: space-evenly;
+        margin-bottom: 80px;
+    }
+    .max-width350 {
+        width: 350px;
+    }
+    .bottomSectionContainer .sectionText h1 {
+        font-size: 24px;
+    }
+    .bottomSectionContainer .sectionText p {
+        font-size: 16px;
+    }
+    .bottomSectionContainer img {
+        width: 44px;
+        height: 40px;
+    }
+    .brandContainer {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+        margin-bottom: 80px;
+    }
+    .infoContainer {
+        width: 600px;
+        text-align: start;
+    }
+    .footerContainer {
+        display: flex;
+        background-color: hsla(0, 0%, 87%, 0.486);
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+    .infoLinks {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .link-one {
+        grid-column: 1;
+    }
+    .link-two {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .link-three {
+        grid-column: 2;
+    }
+    .link-four {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .link-five {
+        grid-column: 3;
+    }
+}
